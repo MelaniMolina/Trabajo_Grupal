@@ -6,6 +6,7 @@ public class Main {
         Mamiferos m = new Mamiferos();
 
         System.out.println("Nombre del animal: " + m.getNombre_ani());
+        m.setNombre_ani("Leon");
         System.out.println("Se alimenta de: " + m.getAlimenta());
     }
 }

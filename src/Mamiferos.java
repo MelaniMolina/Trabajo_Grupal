@@ -1,10 +1,11 @@
 public class Mamiferos {
     String nombre_ani;
     String alimenta;
+    String habitad;
     Mamiferos(){
         nombre_ani = "Jirafa";
         alimenta = "Hojas";
-
+        habitad = "Selva";
     }
 
     public String getNombre_ani() {
@@ -21,5 +22,13 @@ public class Mamiferos {
 
     public void setAlimenta(String alimenta) {
         this.alimenta = alimenta;
+    }
+
+    public String getHabitad() {
+        return habitad;
+    }
+
+    public void setHabitad(String habitad) {
+        this.habitad = habitad;
     }
 }

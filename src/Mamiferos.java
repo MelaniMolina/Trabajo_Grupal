@@ -4,5 +4,6 @@ public class Mamiferos {
     Mamiferos(){
         nombre_ani = "Jirafa";
         alimenta = "Hojas";
+
     }
 }

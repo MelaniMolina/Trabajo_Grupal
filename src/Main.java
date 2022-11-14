@@ -8,8 +8,8 @@ public class Main {
         System.out.println("Nombre del animal: " + m.getNombre_ani());
         System.out.println("Se alimenta de: " + m.getAlimenta());
 
-        System.out.println("Tipo de Habitad: " + m.getNombre_ani());
-        System.out.println("Se alimenta de: " + m.getAlimenta());
+        System.out.println("Tipo de Habitad: " + m.getHabitad());
+
 
     }
 }
